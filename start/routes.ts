@@ -18,8 +18,11 @@
 |
 */
 
-import Route from '@ioc:Adonis/Core/Route'
+import Route from "@ioc:Adonis/Core/Route";
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+Route.get("/", async () => {
+  return { hello: "world" };
+});
+
+Route.post("/ex1", "Questao1sController.ex1");
+Route.post("/ex2", "Questao1sController.ex2");
