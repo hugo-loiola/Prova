@@ -44,6 +44,9 @@ export default class Rpg extends BaseModel {
   @column()
   public carisma: number;
 
+  @column()
+  public nascimento: Date;
+
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime;
 

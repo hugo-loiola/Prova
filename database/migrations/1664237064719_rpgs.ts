@@ -19,6 +19,7 @@ export default class extends BaseSchema {
       table.integer("inteligencia");
       table.integer("sabedoria");
       table.integer("carisma");
+      table.date("nascimento");
 
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
