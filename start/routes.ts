@@ -26,4 +26,3 @@ Route.get("/", async () => {
 
 Route.post("/ex1", "Questao1sController.ex1");
 Route.post("/ex2", "Questao1sController.ex2");
-Route.post("/ex3", "Questao1sController.ex3");
